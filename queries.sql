@@ -21,3 +21,6 @@ show autovacuum_analyze_scale_factor;
 show vacuum_cost_limit;
 show autovacuum_vacuum_cost_limit;
 show autovacuum_vacuum_cost_delay;
+
+select * from ck_need_vacuum; 
+select * from ck_need_analyze; 
