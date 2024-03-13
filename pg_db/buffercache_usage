@@ -1,0 +1,3 @@
+SELECT usagecount, count(*) FROM pg_buffercache
+GROUP BY usagecount
+ORDER BY usagecount;
